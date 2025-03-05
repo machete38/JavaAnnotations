@@ -32,7 +32,8 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.auto.service)
+    annotationProcessor(libs.auto.service)
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
