@@ -26,13 +26,14 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
 
 dependencies {
     implementation(libs.auto.service)
+    implementation(libs.play.services.vision)
     annotationProcessor(libs.auto.service)
     implementation(libs.appcompat)
     implementation(libs.material)
